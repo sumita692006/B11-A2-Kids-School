@@ -3,7 +3,7 @@
     background-position: center;
     height: auto;
     background-image: header 
-    margin: 0 8.8125rem;
+    /* margin: 0 8.8125rem; */
 }
 .bag-school{
     display: flex;
@@ -273,14 +273,18 @@ footer{
  
 
   
-    @media screen and (max-width:576px){
+     /* @media screen and (max-width:576px)  */
+      
+ @media screen and (max-width:576px) {
     .curriculum-container{
         
-        flex-direction: column;
+    flex-direction: column;
     }
-    .section-02{
+    .section-02{ 
          
-        flex-direction: column-reverse.blue-section{
+    flex-direction: column-reverse
+    }
+    .blue-section{ 
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -358,7 +362,7 @@ footer{
 body{
     overflow-x: hidden;
 }
-}
+ }
     
   
 
