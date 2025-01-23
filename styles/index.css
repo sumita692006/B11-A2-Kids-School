@@ -70,6 +70,8 @@
 .section-1{
     display: flex;
     justify-content: space-between;
+    margin-left: 165px;
+    margin-right: 50px;
 }
 .menubar, .btn-primary{
     margin-top: 10px;
@@ -80,6 +82,7 @@
     width: 72.375rem;
     height: 35.93rem;
     display: flex;
+    margin-left: 150px;
 }
 .section-02 div{
     margin-right: 6.875rem;
@@ -169,6 +172,7 @@ nav a{
 .curriculum-container{
     display: flex;
     gap: 1.25rem;
+    margin-left: 150px;
 }
 .curriculum{
     border: 2px solid whitesmoke;
@@ -254,6 +258,7 @@ nav a{
     display: flex;
     justify-content: center;
     margin-top: 5rem;
+    margin-bottom: 5rem;
 }
  .btn-third{
     font-weight: 600;
@@ -268,6 +273,26 @@ nav a{
  
 footer{
     background-color:rgba(1, 172, 253, 1) ; 
+}
+.blue-section{
+    display: flex;
+    padding: 70px;
+    justify-content: space-between;
+    color: white;
+}
+.list-div{
+    display: block;
+    gap: 20px;
+}
+.list-div> a{
+    display: block;
+    text-decoration: none;
+     margin-bottom: 20px;
+     color: white;
+}
+.list-div>p{
+    font-size: larger;
+    font-weight: bolder;
 }
  
  
