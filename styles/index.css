@@ -1,0 +1,365 @@
+.background{ 
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    background-image: header 
+    margin: 0 8.8125rem;
+}
+.bag-school{
+    display: flex;
+}
+.bag-school img{
+    height: 3.875rem ;
+    width: 3.875rem ;
+}
+
+.bag-school p{
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 1.25rem; 
+}
+
+.menubar{
+    gap: 2.5rem;
+    display: flex;
+     
+}
+.menubar a{
+    text-decoration: none;
+    height: 1.875rem;
+
+}
+
+#orange{
+    color: orange ;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+#blue{
+    color: skyblue;
+    font-weight:  medium;
+    font-size: 1.25rem;
+}
+#aqua{
+    color: rgba(5, 212, 223, 1);
+    font-weight: medium;
+    font-size: 20px;
+}
+#violet{
+    color: rgba(93, 88, 239, 1);
+    font-weight: medium;
+    font-size: 1.25rem;
+}
+.btn-primary, .btn-secondary{
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+    font-size: 1.25rem;
+    background-color: orange;
+    padding:  10px 10px;
+    border-radius: 12px;
+    width: 6.25rem;
+    height: 1.56rem;
+    text-align: center;
+}
+.btn-secondary{
+    background-color: black;
+}
+
+
+
+.section-1{
+    display: flex;
+    justify-content: space-between;
+}
+.menubar, .btn-primary{
+    margin-top: 10px;
+}
+
+ 
+.section-02{
+    width: 72.375rem;
+    height: 35.93rem;
+    display: flex;
+}
+.section-02 div{
+    margin-right: 6.875rem;
+}
+
+.paragraph{
+    display: grid;
+    align-items: center;
+    margin: 4.375rem 9.375rem auto 0.9375rem;
+    
+}
+.paragraph h1{
+    
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+.paragraph p{
+    font-size: 1.25rem;
+}
+#big-orange{
+    color: orange;
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+#big-blue{
+    color: skyblue;
+    font-weight: bold;
+    font-size: 3.5rem;
+    
+}
+
+#watch-headline{
+    display: flex;
+    justify-content: center;
+    margin-top: 3.75rem;
+}
+    .section-2{
+        display: block;
+    }
+    .one{
+        color: rgba(100, 200, 255, 1);
+    }
+    .two{
+        color: rgba(240, 170, 0, 1);
+    }
+    .three{
+        color: rgba(135, 0, 255, 1);
+    }
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+.stand{
+     display: grid;
+     justify-content: center;
+     margin-top: 3.75rem;
+     margin-bottom: 5rem;
+     font-size: 2.8125rem;
+     font-weight: bold;
+}
+.circle-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    gap: 10px;
+     
+}
+.circle{
+    font-weight: 600;
+    font-size:  2rem;
+    background-color: rgba(240, 170, 0, 1) ;
+    color: rgba(255, 255, 255, 1);
+    width: 3.125rem;
+    height: 3.125rem;
+    border-radius: 2.5rem;
+    border: none;
+     
+}
+.bh{
+     
+    justify-content: center;
+}
+.curriculum-container{
+    display: flex;
+    gap: 1.25rem;
+}
+.curriculum{
+    border: 2px solid whitesmoke;
+    padding: 1.25rem;
+    border-radius: 10px;
+    text-align: center;
+}
+.curriculum-1{
+    background-color: rgba(222, 245, 255, 1);
+}
+.curriculum-2{
+    background-color: rgba(255, 244, 220, 1);
+}
+.curriculum-3{
+    background-color: rgba(242, 232, 255, 1);
+}
+.stories-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+     
+    
+}
+.small-story{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    
+     
+}
+.small-story > .story{
+    border: 1px solid  whitesmoke;
+    border-radius: 1rem;
+    width: 16.625rem;
+    height: 16.875rem;
+    background-color: rgba(255, 255, 255, 1);
+    overflow: hidden;
+}
+ 
+.big-story{
+    width: 28.125rem;
+    height: 34.375rem;
+    border: 1px solid whitesmoke;
+    border-radius: 1rem;
+    background-color: rgba(255, 255, 255, 1);
+    overflow: hidden;
+     
+}
+.story> button{
+    background-color:rgba(149, 178, 38, 1) ;
+}
+#button-3{
+    background-color: rgba(93, 88, 240, 1);
+    color:rgba(255, 255, 255, 1) ;
+    border-radius: 2.9375rem;
+    border: none;
+    margin-left: 3.125rem;
+}
+#button-1{
+    background-color:rgba(60, 216, 232, 1);
+    color:rgba(255, 255, 255, 1) ;
+    border-radius: 2.9375rem;
+    border: none;
+    margin-left: 9.375rem;
+    padding: 10px;
+     
+
+}
+.button-button{
+    background-color:rgba(149, 178, 38, 1) ;
+    color:rgba(255, 255, 255, 1) ;
+    border-radius: 2.9375rem;
+    border: none;
+    margin-left: 3.125rem;
+     
+     
+}
+.find{
+    margin-left: 3.125rem;
+}
+.center-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+ .btn-third{
+    font-weight: 600;
+    font-size: 1.25rem;
+    background-color: black;
+    color: rgba(255, 255, 255, 1);
+    width: 9.375rem;
+    padding: 10px;
+    border-radius: 10px;
+}
+ 
+ 
+footer{
+    background-color:rgba(1, 172, 253, 1) ; 
+}
+ 
+ 
+
+  
+    @media screen and (max-width:576px){
+    .curriculum-container{
+        
+        flex-direction: column;
+    }
+    .section-02{
+         
+        flex-direction: column-reverse.blue-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     
+    margin-top:  3.75rem;
+    height: 31.25rem;
+    padding: 0 6.25px;
+}
+.school-bag{
+    display: flex;
+     
+}
+.school-bag>img{
+    width:5rem ;
+    height: 5.625rem;
+     
+}
+.school-bag>h1{
+    margin-bottom:1.25rem ;
+    color: rgba(255, 255, 255, 1);
+}
+.school-bag>p{
+    color: rgba(255, 255, 255, 1);
+}
+#pizza{
+    color: rgba(255, 255, 255, 1) ;
+}
+ .list-div>a{
+    display: block;
+    margin-bottom:1.25rem ;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+     
+ }
+ .list-div>p{
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.25rem;
+    font-weight: 43.75rem;
+ }
+ .icon-div>h1{
+    color: rgba(255, 255, 255, 1);;
+        max-width: 100%;
+         height: auto;
+         display: block;
+          
+    }
+    .paragraph{
+        margin: 5px;
+    }
+    .image{
+        
+        width: 100%;
+    }
+    .circle-button{
+        display: none;
+    }
+    .blue-section{
+        display: grid;
+         
+    }
+     
+    .section-1> .btn-primary, .menubar, p{
+        display: none;
+    }
+     
+.bag-school{
+     display: flex;
+    justify-content: space-around;
+     
+    width: 100%;
+}
+footer{
+    display: block;
+}
+body{
+    overflow-x: hidden;
+}
+}
+    
+  
+
+  
